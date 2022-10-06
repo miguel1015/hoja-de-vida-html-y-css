@@ -1,0 +1,350 @@
+<div class="profileText">
+                <div class="imgBx">
+                    <img src="https://i.pinimg.com/originals/1b/43/17/1b43175480f4bfe71e361dbd42b2970a.jpg"
+                </div>
+            </div>
+        </div>
+        <div class="CONTACTO">
+            <h2 class="title">CONTACTO</h2>
+            <Ul>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                    <span class="text">migueljoel80@gmail.com</span>
+                </li>
+            </Ul>
+
+            <Ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                    <span class="text">3007456224</span>
+                </li>
+            </Ul>
+
+            <Ul>
+                <li>
+                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="text">Colombia-B/quilla</span>
+                </li>
+            </Ul>
+
+            <Ul>
+                <li>
+                    <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                    <span class="text">mikes.com</span>
+                </li>
+            </Ul>
+            
+            <div class="HABILIDADES">
+                <h2 class="title">HABILIDADES</h2>
+                <Ul>
+                    <li>
+                        <span class="text">Animacion</span>
+                        <span class="percent">
+                            <div style="width: 85%;"></div>
+                        </span>
+                    </li>
+                </Ul>
+
+                <Ul>
+                    <li>
+                        <span class="text">Digitalizacion</span>
+                        <span class="percent">
+                            <div style="width: 65%;"></div>
+                        </span>
+                    </li>
+                </Ul>
+
+                <Ul>
+                    <li>
+                        <span class="text">Paginas Web</span>
+                        <span class="percent">
+                            <div style="width: 75%;"></div>
+                        </span>
+                    </li>
+                </Ul>
+        </div>
+        
+        <div class="SKILLS">
+            <h2 class="title">SKILLS</h2>
+            <Ul>
+                <li>
+                    <span class="text">Javascript</span>
+                    <span class="percent">
+                        <div style="width: 60%;"></div>
+                    </span>
+                </li>
+            </Ul>
+
+            <Ul>
+                <li>
+                    <span class="text">Python</span>
+                    <span class="percent">
+                        <div style="width: 90%;"></div>
+                    </span>
+                </li>
+            </Ul>
+
+            <Ul>
+                <li>
+                    <span class="text">HTML</span>
+                    <span class="percent">
+                        <div style="width: 80%;"></div>
+                    </span>
+                </li>
+            </Ul>
+    </div>
+        <di class="about interest">
+            <h2 class="title">HOBBIES</h2>
+            <ul>
+                <li><i class="fa fa-futbol-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-gamepad" aria-hidden="true"></i></li>
+                <li><i class="fa fa-television" aria-hidden="true"></i></li>
+                <li><i class="fa fa-music" aria-hidden="true"></i></li>
+            </ul>
+        </di
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoja de vida</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./estilos.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="./images/bruce wayne.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="left_side"></div>
+
+    </div>
+        
+
+            <!-- <div class="profileText">
+                <div class="imgBx">
+                    <img src="./images/bruce wayne.jpeg">
+                </div> -->
+               
+</body>
+</html>
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px;
+}
+
+.container .left_side{
+    position: relative;
+    background: rgb(43, 73, 161);
+    padding: 40px;
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(234, 240, 233, 0.2);
+} 
+
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+    overflow: hidden;
+    
+} 
+
+.profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+} 
+
+.CONTACTO{
+    padding-top: 2px;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.CONTACTO Ul{
+    position: relative;
+}
+.CONTACTO Ul li{
+    position: relative;
+    list-style: none;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.CONTACTO Ul li .icon{
+    display: inline-block;
+    width: 70px;
+    font-size: 22px;
+    color: rgb(43, 73, 161);
+    background-color: #fff;
+    /* padding: 5px 0 5px 0; */
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+    text-align: right;
+}
+
+.CONTACTO Ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.CONTACTO ul:hover span{
+    filter: blur(2px);
+}
+
+.CONTACTO ul li span:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.HABILIDADES .percent {
+    position: relative;
+    width: 60%;
+    height: 10px;
+    background-color: rgb(99, 92, 92);
+    display: block;
+    margin-top: 7px;
+    float: right;
+}
+
+.HABILIDADES .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(246, 247, 250);
+}
+
+.SKILLS .percent {
+    position: relative;
+    width: 60%;
+    height: 10px;
+    background-color: rgb(99, 92, 92);
+    display: block;
+    margin-top: 7px;
+    float: right;
+}
+
+.SKILLS .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(246, 247, 250);
+}
+
+
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+
+.interest ul li{
+    padding-top: 30%;
+    list-style: none;
+    color: antiquewhite;
+    font-weight: 500;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.interest ul li i{
+    display: block;
+    padding: 0 10px;
+    background: #fff;
+    color: rgb(43, 73, 161);
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .4);
+    transition: .2s;
+}
+
+.interest ul:hover i{
+    filter: blur(2px);
+}
+
+.interest ul li i:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+
+
+
+.container .right_side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
